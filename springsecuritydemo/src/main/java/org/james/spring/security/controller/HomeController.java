@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/home")
+@RequestMapping
 public class HomeController {
 
-	@GetMapping("/user")
+	@GetMapping("/home")
 	public String home() {
-		return "<h1>Home page</h1>";
+		return "<h1>User home page</h1>";
 	}
 
 	@GetMapping("/admin")
