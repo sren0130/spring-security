@@ -14,7 +14,7 @@ public class SpringSecurityJWTDemo {
 	}
 
 	@Bean
-	public PasswordEncoder passwordEncorder() {
+	public PasswordEncoder passwordEncoder() {
 		return NoOpPasswordEncoder.getInstance();
 	}
 }

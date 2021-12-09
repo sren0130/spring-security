@@ -18,7 +18,7 @@ public class UserService implements UserDetailsService {
 		// get username and password from database
 		
 		// here create dummy User object 
-		return new User("jren", "pass12345", new ArrayList<>());
+		return new User("jren", "pass", new ArrayList<>());
 	}
 
 }
